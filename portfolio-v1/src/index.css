@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+@font-face {
+   font-family: small;
+   src: url(../fonts/JETBRAINSMONO-VARIABLEFONT_WGHT_0.TTF);
+}
+@font-face {
+   font-family: s2;
+   src: url(../fonts/GEIST-MEDIUM.TTF);
+}
+/* @font-face {
+   font-family: s3;
+   src: url(../fonts/JETBRAINSMONO-VARIABLEFONT_WGHT_0.TTF);
+}
+@font-face {
+   font-family: s4;
+   src: url(../fonts/JETBRAINSMONO-VARIABLEFONT_WGHT_0.TTF);
+}
+@font-face {
+   font-family: s5;
+   src: url(../fonts/JETBRAINSMONO-VARIABLEFONT_WGHT_0.TTF);
+} */
+.customFlex{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+div{
+   /* outline: 1px solid pink; */
+}
