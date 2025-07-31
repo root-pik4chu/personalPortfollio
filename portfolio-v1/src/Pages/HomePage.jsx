@@ -25,7 +25,7 @@ const HomePage = () => {
           </div>
           <div className="">
             <div className="flex flex-col justify-end w-[23vw] h-full text-justify">
-              {[
+              {[ 
                 "(sometimes We)/i blend bold creativity ,",
                 "with strategic design to build digital",
                 "experiences that captivate and",
@@ -83,7 +83,7 @@ const HomePage = () => {
 
 
         {/* services */}
-
+                    {/* yo */}
 
         {/* testimonials */}
 
