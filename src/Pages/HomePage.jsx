@@ -25,7 +25,7 @@ const HomePage = () => {
           </div>
           <div className="">
             <div className="flex flex-col justify-end w-[23vw] h-full text-justify">
-              {[ 
+              {[
                 "(sometimes We)/i blend bold creativity ,",
                 "with strategic design to build digital",
                 "experiences that captivate and",
@@ -33,8 +33,8 @@ const HomePage = () => {
                 "i/we turn attention into action.",
               ].map((item, index) => {
                 return (
-                  <div className="text-[1vw] leading-none text-end font-extralight w-full ">
-                    <h1 className="font-[s2] uppercase  w-full">{item}</h1>
+                  <div className=" text-end font-extralight w-full ">
+                    <p className="font-[s2] uppercase  w-full">{item}</p>
                   </div>
                 );
               })}
@@ -72,24 +72,58 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        
       </div>
       {/* projects */}
-        <div className="w-full h-screen">
-
+      <div className="w-full h-[300vh] text-white">
+        <div className="space"></div>
+        <div className="w-full h-[15vh]">
+          <div className="text-[6vw]  uppercase leading-[5.5vw] ">
+            <h1>freelance projects</h1>
+          </div>
+          <div className="">
+            <p>Whatever Client Wants i Create </p>
+          </div>
         </div>
+        {/* <div className="space"></div> */}
+        <div className="w-full h-full flex flex-col gap-[1vw]">
+          {[1, 2, 3].map(() => {
+            return (
+              <div className="w-full h-[70vh] ">
+                <div className="w-full h-full flex justify-between">
+                  <div className="w-[45%] h-full ">
+                    <div className="w-full h-full flex flex-col justify-between">
+                      <div className="up w-full h-[30%] pt-[5vw]">
+                        <h2>infrawave</h2>
+                      </div>
+                      <div className="down w-full h-[25%] ">
+                        <div className="w-full h-full flex flex-col justify-between items-start">
+                          <p>
+                            We blend bold creativity with strategic design to
+                            build digital experiences that captivate and
+                            convert. From identity to interaction, we turn
+                            attention into action.
+                          </p>
+                          <ButtonComponent />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-[45%] h-full bg-amber-700"></div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
 
-        {/* scroller */}
+      {/* scroller */}
 
+      {/* services */}
+      {/* yo */}
 
-        {/* services */}
-                    {/* yo */}
+      {/* testimonials */}
 
-        {/* testimonials */}
-
-
-
-        {/* footer */}
+      {/* footer */}
     </div>
   );
 };

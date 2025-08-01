@@ -15,9 +15,9 @@ const Navbar = () => {
           return (
             <div className="">
               <NavLink to={path}>
-                <h1 className="text-white">{item} 
+                <p className="text-white">{item} 
                   
-                </h1>
+                </p>
               </NavLink>
             </div>
           );

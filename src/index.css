@@ -29,3 +29,36 @@
 div{
    /* outline: 1px solid pink; */
 }
+
+.space{
+   width: full;
+   height: 10vw;
+   /* background: red; */
+}
+
+p{
+   
+   text-transform: uppercase;
+   font-size: 1vw;
+   line-height: 1vw;
+}
+
+h1{
+   color: #cccccc;
+   font-family: s2;
+   font-weight: 500;
+   font-size: 6vw;
+   line-height: 5.5vw;
+   text-transform: uppercase;
+}
+
+
+h2{
+   color: #cccccc;
+   font-family: s2;
+   font-weight: 500;
+   font-size: 4vw;
+   line-height: 3.5vw;
+   text-transform: capitalize;
+   font-style: italic;
+}
