@@ -92,7 +92,7 @@ const HomePage = () => {
                 <div className="w-full h-full flex justify-between">
                   <div className="w-[45%] h-full ">
                     <div className="w-full h-full flex flex-col justify-between">
-                      <div className="up w-full h-[30%] pt-[5vw]">
+                      <div className="up w-full h-[30%] pt-[3vw]">
                         <h2>infrawave</h2>
                       </div>
                       <div className="down w-full h-[25%] ">

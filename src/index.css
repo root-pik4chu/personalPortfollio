@@ -8,6 +8,10 @@
    font-family: s2;
    src: url(../fonts/GEIST-MEDIUM.TTF);
 }
+@font-face {
+   font-family: s3;
+   src: url(../fonts/LibreCaslonText-Italic.ttf);
+}
 /* @font-face {
    font-family: s3;
    src: url(../fonts/JETBRAINSMONO-VARIABLEFONT_WGHT_0.TTF);
@@ -41,6 +45,7 @@ p{
    text-transform: uppercase;
    font-size: 1vw;
    line-height: 1vw;
+   
 }
 
 h1{
@@ -55,7 +60,7 @@ h1{
 
 h2{
    color: #cccccc;
-   font-family: s2;
+   font-family: s3;
    font-weight: 500;
    font-size: 4vw;
    line-height: 3.5vw;
