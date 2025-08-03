@@ -24,7 +24,7 @@ const RootLayout = () => {
   }, []);
 
   return (
-    <div className="bg-zinc-950">
+    <div className="bg-black">
       <Navbar />
       <div className="w-full px-[1vw]">
         <Outlet />

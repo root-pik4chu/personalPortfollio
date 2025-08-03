@@ -4,6 +4,7 @@ import cat from "../../public/cat-hack.gif";
 import gsap from "../assets/gsap.svg";
 import images from "../images/heroSectionImages";
 import imagesData from "../images/heroSectionImages";
+import Button_component from "../components/ButtonComponent/Button_component";
 const HomePage = () => {
   return (
     <div>
@@ -74,7 +75,7 @@ const HomePage = () => {
         </div>
       </div>
       {/* projects */}
-      <div className="w-full h-[300vh] text-white">
+      <div className="w-full h-[260vh] text-white">
         <div className="space"></div>
         <div className="w-full h-[15vh]">
           <div className="text-[6vw]  uppercase leading-[5.5vw] ">
@@ -85,7 +86,7 @@ const HomePage = () => {
           </div>
         </div>
         {/* <div className="space"></div> */}
-        <div className="w-full h-full flex flex-col gap-[1vw]">
+        <div className="w-full h-[220vh] flex flex-col gap-[1vw]">
           {[1, 2, 3].map(() => {
             return (
               <div className="w-full h-[70vh] ">
@@ -115,10 +116,20 @@ const HomePage = () => {
           })}
         </div>
       </div>
-
+        {/* more porjects */}
+        <div className="w-full  text-white flex items-center justify-end gap-[2vw] uppercase">
+          <h3 className=" text-white ">remaining projects are here ... </h3>
+          <button className="bg-white text-black px-[1vw] py-[0.5vw] text-[1vw] rounded uppercase" >more porjects</button>
+        </div>
       {/* scroller */}
-
+          <div className="w-full h-[50vh] ">
+        <Button_component /> 
+            
+          </div>
       {/* services */}
+      <div className="w-full h-screen flex items-center justify-center">
+        <Button_component /> 
+      </div>
       {/* yo */}
 
       {/* testimonials */}

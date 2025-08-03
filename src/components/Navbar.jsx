@@ -1,7 +1,7 @@
 import React from "react";
 import Sahil from "../../public/Sahil.svg";
 import { NavLink } from "react-router";
-import ButtonComponent from "./ButtonComponent";
+import Button_component from "../components/ButtonComponent/Button_component";
 
 const Navbar = () => {
   return (
@@ -25,7 +25,8 @@ const Navbar = () => {
       </div>
       <div className="w-1/6  h-[20vh] customFlex text-white">
         {/* <button className="border px-[1.5vw] py-[1vh] rounded-full">contact us</button> */}
-        <ButtonComponent />
+                <Button_component /> 
+
       </div>
     </div>
   );
