@@ -5,6 +5,7 @@ import gsap from "../assets/gsap.svg";
 import images from "../images/heroSectionImages";
 import imagesData from "../images/heroSectionImages";
 import Button_component from "../components/ButtonComponent/Button_component";
+import SplitButton from "../components/anotherButton/SplitButton";
 const HomePage = () => {
   return (
     <div>
@@ -128,7 +129,7 @@ const HomePage = () => {
           </div>
       {/* services */}
       <div className="w-full h-screen flex items-center justify-center">
-        <Button_component /> 
+        <SplitButton /> 
       </div>
       {/* yo */}
 

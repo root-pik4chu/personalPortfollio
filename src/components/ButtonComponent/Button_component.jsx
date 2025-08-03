@@ -111,7 +111,7 @@ const Button_component = () => {
             </span>
           ))}
         </span>
-        <span className="font-[s3]">Contact</span>
+        <span className="font-[s2]">Contact</span>
       </button>
     </>
   );
