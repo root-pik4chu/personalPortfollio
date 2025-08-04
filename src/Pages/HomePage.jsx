@@ -29,15 +29,15 @@ const HomePage = () => {
       <div className="w-full h-[80vh]  text-zinc-50">
         <div className="w-full h-[15vh] "></div>
         <div className="flex w-full h-[16vw]">
-          <div className="w-[78vw] h-full ">
+          <div className="w-[78vw] h-full flex flex-col justify-end">
             {[
-              "Just Me, My Keyboard,",
-              "and a Whole Lot of ",
-              "React/Animation stuff ",
+              "I am a UIUX and Frontend,",
+              "Engineer passionate about ",
+              "building great user experience ",
             ].map((item, index) => {
               return (
-                <div className="text-[6vw] leading-[5.5vw] font-extralight ">
-                  <h1 className="font-[s2] uppercase">{item}</h1>
+                <div className=" font-extralight ">
+                  <h1 className="font-[s2]">{item}</h1>
                 </div>
               );
             })}

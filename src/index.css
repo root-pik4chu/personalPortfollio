@@ -59,8 +59,8 @@ h1{
    color: #cccccc;
    font-family: s2;
    font-weight: 500;
-   font-size: 6vw;
-   line-height: 5.5vw;
+   font-size: 4vw;
+   line-height: 3.5vw;
    text-transform: uppercase;
 }
 
@@ -69,8 +69,8 @@ h2{
    color: #cccccc;
    font-family: s4;
    font-weight: 100;
-   font-size: 4vw;
-   line-height: 3.5vw;
+   font-size: 3vw;
+   line-height: 2.5vw;
    text-transform: capitalize;
    /* font-style: italic; */
 }
