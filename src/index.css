@@ -9,6 +9,10 @@
    src: url(../fonts/GEIST-MEDIUM.TTF);
 }
 @font-face {
+   font-family: s4;
+   src: url(../fonts/GEIST-LIGHT.TTF);
+}
+@font-face {
    font-family: s3;
    src: url(../fonts/LibreCaslonText-Italic.ttf);
 }
@@ -39,7 +43,10 @@ div{
    height: 10vw;
    /* background: red; */
 }
-
+.space_1{
+   width: full;
+   height: 5vh;
+}
 p{
    
    text-transform: uppercase;
@@ -60,14 +67,33 @@ h1{
 
 h2{
    color: #cccccc;
-   font-family: s3;
-   font-weight: 500;
+   font-family: s4;
+   font-weight: 100;
    font-size: 4vw;
    line-height: 3.5vw;
    text-transform: capitalize;
-   font-style: italic;
+   /* font-style: italic; */
 }
 
+h3{
+   
+   font-family: s4;
+   font-weight: 100;
+   font-size: 3vw;
+   line-height: 3.5vw;
+   text-transform: capitalize;
+   /* font-style: italic; */
+}
+
+h4{
+   
+   font-family: s2;
+   font-weight: 200;
+   font-size: 1vw;
+   line-height: 1.5vw;
+   text-transform: capitalize;
+   /* font-style: italic; */
+}
 
 
 
@@ -80,8 +106,7 @@ h2{
 .button {
   position: relative;
   display: inline-flex;
-  padding: 1em 2em;
-  border-radius: 100px;
+  padding: 0.9vw 1.5vw;
   cursor: pointer;
   text-decoration: none;
   color: inherit;
@@ -98,35 +123,32 @@ h2{
 
 .p-reg {
   margin: 0;
-  font-size: 1rem;
+ 
   line-height: 1.4;
 }
 
 .button-bg {
   position: absolute;
   inset: 0;
-  border-radius: 100px;
+    border-radius: 2vw;
+
   z-index: 1;
   background-color: #efeeec;
   transition: transform var(--animation-default), background-color 0.1s ease-in-out;
 }
 
-.secondary .button-bg {
-  background-color: transparent;
-  border: 1px solid #efeeec;
-}
 
 .button p {
   text-shadow: 0px 1.25em currentColor;
   color: #131313;
 }
 
-.secondary p {
-  color: #efeeec;
-}
+
 
 .button:hover .button-bg {
+
   transform: scale(0.95);
+
 }
 
 .button .single-letter {
