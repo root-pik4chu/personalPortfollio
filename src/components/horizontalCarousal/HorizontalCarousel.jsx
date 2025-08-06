@@ -104,6 +104,7 @@ const HorizontalCarousel = () => {
       className="w-full h-[60vh] overflow-hidden relative cursor-grab  flex items-center justify-center"
     >
       <div className="absolute top-0 left-0 w-full h-full flex" style={{ counterReset: 'count' }}>
+        itemsRef.current = [];
         {Array.from({ length: 6 }).map((_, i) => (
           <div
             key={i}
