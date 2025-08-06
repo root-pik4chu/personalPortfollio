@@ -7,6 +7,7 @@ import imagesData from "../images/heroSectionImages";
 import Button_component from "../components/ButtonComponent/Button_component";
 import SplitButton from "../components/anotherButton/SplitButton";
 import video1 from "../assets/video1.mp4";
+import HorizontalCarousel from "../components/horizontalCarousal/HorizontalCarousel";
 const HomePage = () => {
   const skillsData = [
   {
@@ -149,11 +150,11 @@ const HomePage = () => {
         <div className="space_1"></div>
 
         {
-            <div className="w-full text-white border-b">
+            <div className="w-full text-white border-b border-zinc-700">
       {skillsData.map((item, index) => (
         <div
           key={index}
-          className="w-full h-[40vh] px-[10vw] flex border-t"
+          className="w-full h-[40vh] px-[10vw] flex border-t border-zinc-700"
         >
           <div className="w-1/2 py-[2vw] flex items-start">
             <h2>{item.id}</h2>
@@ -185,8 +186,12 @@ const HomePage = () => {
       {/* yo */}
 
       {/* testimonials */}
-      <div className="w-full h-screen bg-red-800">
-
+      <div className="w-full h-screen ">
+        <div className="space_1"></div>
+        <h1>Testimonials</h1>
+        {/* <p>things i can do </p> */}
+        <div className="space_1"></div>
+          <HorizontalCarousel />
           
 
       </div>

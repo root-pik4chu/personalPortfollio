@@ -46,12 +46,12 @@ const SplitButton = ({ text = "Button Text", variant = "primary" }) => {
   return (
     <a
       href="#"
-      className={`button ${variant === "secondary" ? "secondary" : ""}`}
+      className={`button ${variant === "secondary" ? "secondary" : ""} `}
       onMouseEnter={handleEnter}
       onMouseLeave={handleLeave}
     >
       <div className="u--clip u--rel">
-        <p ref={textRef} className="p-reg font-[s2]" data-split="letters">
+        <p ref={textRef} className="p-reg font-[s2] " data-split="letters">
           {text}
         </p>
       </div>
