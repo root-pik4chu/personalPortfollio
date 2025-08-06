@@ -86,19 +86,19 @@ const HorizontalCarousel = () => {
     const render = () => {
       requestAnimationFrame(render);
 
-      scrollData.current.y = lerp(scrollData.current.y, scrollData.current.scrollY, 0.03);
+      scrollData.current.y = lerp(scrollData.current.y, scrollData.current.scrollY, 0.09);
       dispose(scrollData.current.y);
 
       const scrollSpeed = scrollData.current.y - scrollData.current.oldScrollY;
       scrollData.current.oldScrollY = scrollData.current.y;
 
       gsap.to(itemsRef.current, {
-        scale: 1 - Math.min(100, Math.abs(scrollSpeed)) * 0.003,
+        scale: 1 - Math.min(100, Math.abs(scrollSpeed)) * 0.002,
       });
     };
 
     render();
-  }, 1200); // 1.2 seconds
+  }, 500); // 0.5 seconds
 
   return () => {
     clearTimeout(timeout); // clean up timeout
@@ -117,7 +117,7 @@ const HorizontalCarousel = () => {
       <div
         key={i}
         ref={(el) => (itemsRef.current[i] = el)}
-        className="absolute top-0 left-0 px-[1.5vw] overflow-hidden"
+        className="absolute top-0 left-0 px-[1vw] overflow-hidden"
         style={{
           width: '31vw',
           height: '100%',
