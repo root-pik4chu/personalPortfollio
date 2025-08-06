@@ -86,7 +86,7 @@ const HorizontalCarousel = () => {
     const render = () => {
       requestAnimationFrame(render);
 
-      scrollData.current.y = lerp(scrollData.current.y, scrollData.current.scrollY, 0.09);
+      scrollData.current.y = lerp(scrollData.current.y, scrollData.current.scrollY, 0.07);
       dispose(scrollData.current.y);
 
       const scrollSpeed = scrollData.current.y - scrollData.current.oldScrollY;
@@ -124,16 +124,17 @@ const HorizontalCarousel = () => {
           counterIncrement: 'count',
         }}
       >
+        {/* bg-[#BC301B] */}
         <figure
-          className="absolute w-full h-full bg-[#BC301B] pointer-events-none select-none"
+          className="absolute w-full h-full bg-[#FF6000] pointer-events-none select-none"
           style={{ transformOrigin: 'center' }}
         >
-          <div className="w-full h-full p-[1vw] text-white flex flex-col">
-            <h4 className="text-lg font-semibold">infrawave</h4>
+          <div className="w-full h-full p-[1vw]  flex flex-col">
+            <h5 className="text-lg font-semibold">infrawave</h5>
             <div className="space_1" />
-            <h4 className=" w-[80%] text-sm leading-relaxed">
+            <h5 className=" w-[80%] text-sm leading-relaxed">
               Sahil truly elevated our brand with the animated website he built for Infrawave Solutions. Every scroll and interaction feels intentional and polished. He’s not just a developer—he understands user experience and delivers with precision. Highly recommended!
-            </h4>
+            </h5>
             <div className="mt-auto text-sm  font-medium">
               <h4> — root</h4>
             </div>
