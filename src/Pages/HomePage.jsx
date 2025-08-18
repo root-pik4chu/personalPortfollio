@@ -8,6 +8,7 @@ import Button_component from "../components/ButtonComponent/Button_component";
 import SplitButton from "../components/anotherButton/SplitButton";
 import video1 from "../assets/video1.mp4";
 import HorizontalCarousel from "../components/horizontalCarousal/HorizontalCarousel";
+import MouseDistortion from "../components/distortionImage/MouseDistortion";
 const HomePage = () => {
   const skillsData = [
     {
@@ -29,7 +30,7 @@ const HomePage = () => {
     <div className="text-zinc-500 ">
       <div className="w-full h-[80vh]  ">
         <div className="w-full h-[15vh] "></div>
-        <div className="flex w-full h-[16vw]">
+        <div className="flex w-full h-[16vw] ">
           <div className="w-[78vw] h-full flex flex-col justify-end">
             {[
               "I am a UIUX and Frontend,",
@@ -44,7 +45,7 @@ const HomePage = () => {
             })}
           </div>
           <div className="">
-            <div className="flex flex-col justify-end w-[23vw] h-full text-justify">
+            <div className="flex flex-col justify-end w-[23vw] h-full text-justify pb-[1vw]">
               {[
                 "(sometimes We)/i blend bold creativity ,",
                 "with strategic design to build digital",
@@ -61,7 +62,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-[1vw] border-zinc-400 border-b-1"></div>
+        <div className="w-full h-[0.5vw] border-zinc-400 border-b-1"></div>
         <div className="w-full h-[30vh] ">
           <div className="w-full h-full flex">
             <div className="w-[80%] h-full">
@@ -129,7 +130,9 @@ const HomePage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="w-[45%] h-full bg-amber-700"></div>
+                  <div className="w-[45%] h-full bg-amber-700">
+                    <MouseDistortion image="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d" />
+                  </div>
                 </div>
               </div>
             );

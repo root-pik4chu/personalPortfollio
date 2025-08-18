@@ -32,7 +32,7 @@ const RootLayout = () => {
         <div className="w-full h-full">
           <div className="w-full h-[70%] ">
             <h1 className="w-[80%]">
-              do you have a question, an idea, or a project you need help with?
+              do you have <span className="font-[s3]">a question, an idea, or a project</span> you need help with?
               contact us!
             </h1>
             <div className="space_1"></div>

@@ -93,7 +93,7 @@ const HorizontalCarousel = () => {
       scrollData.current.oldScrollY = scrollData.current.y;
 
       gsap.to(itemsRef.current, {
-        scale: 1 - Math.min(100, Math.abs(scrollSpeed)) * 0.002,
+        scale: 1 - Math.min(100, Math.abs(scrollSpeed)) * 0.001,
       });
     };
 

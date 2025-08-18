@@ -11,13 +11,10 @@ const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements  (
       <Route path='/' element = {<RootLayout />}>
-
-
         <Route index element={ <HomePage />} />
         <Route path='About' element={ <About />} />
         <Route path='Contact' element={ <Contact />} />
         <Route path='Projects' element={ <Projects />} />
-
       </Route>
     )
   )
