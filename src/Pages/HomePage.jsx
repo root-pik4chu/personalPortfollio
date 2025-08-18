@@ -9,6 +9,7 @@ import SplitButton from "../components/anotherButton/SplitButton";
 import video1 from "../assets/video1.mp4";
 import HorizontalCarousel from "../components/horizontalCarousal/HorizontalCarousel";
 import MouseDistortion from "../components/distortionImage/MouseDistortion";
+import ResponsiveWarning from "../components/warningPage/ResponsiveWarning";
 const HomePage = () => {
   const skillsData = [
     {
@@ -28,6 +29,7 @@ const HomePage = () => {
   ];
   return (
     <div className="text-zinc-500 ">
+      <ResponsiveWarning />
       <div className="w-full h-[80vh]  ">
         <div className="w-full h-[15vh] "></div>
         <div className="flex w-full h-[16vw] ">

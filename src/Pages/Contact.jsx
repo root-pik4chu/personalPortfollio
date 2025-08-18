@@ -2,10 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div>
-      <h1 className='bg-amber-600 text-5xl'>contact Page</h1>
-      
-    </div>
+    <div className='w-full h-[80vh] flex items-center justify-center'><h1 className='flex items-center justify-center'>work in progress</h1></div>
   )
 }
 
